@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, Poppins;
+  font-family: -apple-system, 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,14 +12,14 @@ code {
     monospace;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
   line-height: 1;
   cursor: pointer;
 }
 
-.container{
+.container {
   padding-left: 10%;
   padding-right: 10%;
 }
