@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Solutions from "./components/Solutions/Solutions";
-import Title from "./components/Title/Title";
 import About from "./components/About/About";
 import Spkb from "./components/SpkbSolution/Spkb";
 const App = () => {

@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background: url('../src/assets/images/sec2-bg.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .App-logo {
