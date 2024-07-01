@@ -1,0 +1,40 @@
+.spkb {
+    width: 100%;
+    min-height: 50vh;
+    background: url('../../assets/images/sec2-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+}
+
+.spkb-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.company-name {
+    font-size: 18px;
+    color: #292A6D;
+    font-weight: 800;
+}
+
+.spkb-name {
+    font-weight: 300;
+}
+
+.spkb-explanation {
+    padding-top: 30px;
+    width: 100%;
+    font-weight: 400;
+}
+
+.spkb-mockup {
+    padding-left: 15%;
+    margin-top: -15%;
+}
