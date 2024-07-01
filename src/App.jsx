@@ -4,33 +4,33 @@ import Hero from "./components/Hero/Hero";
 import Solutions from "./components/Solutions/Solutions";
 import Title from "./components/Title/Title";
 import About from "./components/About/About";
+import Spkb from "./components/SpkbSolution/Spkb";
 const App = () => {
   let heroData = [
-    {text1:"Elix Solution", text2:"Sdn. Bhd."},
-    {text1:"SaaS Services", text2:"Enforcement System"}
+    { text1: '"FROM ENFORCER', text2: 'TO ENFORCEMENT"', text3: 'Elix Solution Sdn. Bhd.' },
+    { text1: "Transforming Enforcement with Integrated Precision" }
   ]
 
   const [heroCount, setHeroCount] = useState(0);
   const [playStatus, setPlayStatus] = useState(false);
 
- 
+
   return (
     <div>
       <Navbar />
-      <Hero 
+      <Hero
         setPlayStatus={setPlayStatus}
         heroData={heroData[heroCount]}
         heroCount={heroCount}
         setHeroCount={setHeroCount}
         playStatus={playStatus}
       />
-      <div className="section2">
-      <Title subTitle="Our Services" Title="What We Offer"/>
-      <Solutions/>
-      </div>
+      <Spkb />
+      <Solutions />
+
       <About />
     </div>
-    
+
   );
 }
 

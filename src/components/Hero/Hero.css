@@ -8,21 +8,48 @@
     align-items: center;
 }
 
-.hero-container{
+.hero-container {
     padding-left: 10%;
     padding-right: 10%;
-    
+
 }
 
-.hero-text{
-    padding-top: 300px;
+.hero-text {
+    text-align: left;
+    padding-top: 180px;
     color: #FFF;
-    font-size: 110px;
+    font-size: 60px;
     font-weight: 500;
-    line-height: 120px;
+    line-height: 50px;
 }
 
-.hero-explore{
+.hero-text1 {
+    font-family: Montserrat;
+    font-style: italic;
+    padding-top: 200px;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.hero-text2 {
+    font-family: Montserrat;
+    color: #5456C8;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 75px;
+}
+
+.hero-text3 {
+    font-family: Montserrat;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+.hero-explore {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -35,26 +62,26 @@
     cursor: pointer;
 }
 
-.hero-explore p{
+.hero-explore p {
     color: #292929;
     font-size: 20px;
     font-weight: 500;
 }
 
-.hero-dot-play{
+.hero-dot-play {
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
 }
 
-.hero-dots{
+.hero-dots {
     display: flex;
     align-items: center;
     gap: 23px;
     list-style: none;
 }
 
-.hero-dot{
+.hero-dot {
     width: 15px;
     height: 15px;
     background-color: #FFF;
@@ -62,18 +89,17 @@
     cursor: pointer;
 }
 
-.hero-dot.orange{
+.hero-dot.orange {
     background-color: orangered;
 }
 
-.hero-play{
+.hero-play {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.hero-play p{
+.hero-play p {
     color: #FFF;
     font-size: 19px;
 }
-
