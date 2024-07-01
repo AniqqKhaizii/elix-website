@@ -15,7 +15,7 @@
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
-    box-shadow: 0px 2px 4px 0px #000;
+    filter: drop-shadow(0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19));
     cursor: pointer;
 }
 
@@ -23,7 +23,7 @@
     padding-left: 5%;
     padding-right: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #1C1A99;
+    background: linear-gradient(135deg, #1C1A99, #090933);
     height: 30rem;
     display: flex;
     flex-direction: column;

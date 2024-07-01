@@ -32,12 +32,6 @@ const Hero = ({ heroData, setHeroCount, heroCount, setPlayStatus, playStatus }) 
               </div> */}
             </div>
           </div>
-          <div className="column">
-            <p>Hai</p>
-          </div>
-
-
-
         </div>
       </div>
     </div >
